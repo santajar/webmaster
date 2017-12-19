@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.webmail.ComposeActivity" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/composelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/compose_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="To"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/compose_cc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cc"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/compose_bcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bcc"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/compose_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/compose_body"
+                android:layout_width="fill_parent"
+                android:layout_height="77dp"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:maxLength="107"
+                android:singleLine="true"
+                android:lines="1"
+                android:scrollHorizontally="true"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Compose Email" />
+
+            <EditText
+                android:id="@+id/compose_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:lines="1"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:ems="10"
+                android:inputType="textLongMessage"
+                android:hint="recepeints public key"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">"
+
+                <Button
+                    android:id="@+id/buttonencrypt"
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg9"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10sp"
+                    android:text="Encrypt and Send" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scrollable_finish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/attachlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40sp"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

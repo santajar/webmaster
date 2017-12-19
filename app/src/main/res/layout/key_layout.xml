@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Generate key"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_pk"
+        android:layout_alignEnd="@+id/button_pk"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <!--public-->
+    <TextView
+        android:id="@+id/tv_generatekey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="public key"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView_p"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:hint="public key here"
+        android:layout_below="@+id/tv_generatekey"
+        android:layout_alignLeft="@+id/tv_generatekey"
+        android:layout_alignStart="@+id/tv_generatekey" />
+
+    <Button
+        android:id="@+id/button_pk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_p"
+        android:padding="10dp"
+        android:text="copy public key" />
+    <!--private-->
+    <TextView
+        android:id="@+id/tv_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:text="private key"
+        android:layout_below="@+id/button_pk"
+        android:layout_alignLeft="@+id/textView_p"
+        android:layout_alignStart="@+id/textView_p" />
+
+    <TextView
+        android:id="@+id/textView_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:hint="private key here"
+        android:layout_below="@+id/tv_pr"
+        android:layout_alignLeft="@+id/tv_pr"
+        android:layout_alignStart="@+id/tv_pr" />
+
+    <Button
+        android:id="@+id/button_prk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView_pr"
+        android:padding="10dp"
+        android:text="copy private key" />
+
+    <Button
+        android:id="@+id/button_sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Save"
+        android:layout_below="@+id/button_prk"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="NOTE: please copy both keys to Google keep or other Application. it will get destroyed when you leave this page."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp" />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:weightSum="1">-->
+
+        <!--<TextView-->
+             <!--android:id="@+id/textView2"-->
+             <!--android:layout_width="match_parent"-->
+             <!--android:layout_height="wrap_content" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Public Key"-->
+        <!--android:text="Public Key"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:singleLine="true"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/publik"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_column="0"-->
+        <!--android:layout_row="1"-->
+        <!--android:layout_weight="0.27"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Public Key"-->
+        <!--android:textSize="12sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView09"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Privat Key"-->
+        <!--android:text="Privat Key"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:singleLine="true"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/privat"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_column="0"-->
+        <!--android:layout_row="1"-->
+        <!--android:layout_weight="0.27"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Public Key"-->
+        <!--android:textSize="12sp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Generate" />-->
+
+
+<!--</LinearLayout>-->

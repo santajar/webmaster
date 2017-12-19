@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\libs\mail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\build\intermediates\pre-dexed\debug\mail_12a74e37958e601e0d77b6c70e264393c17469b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\libs\additionnal.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\build\intermediates\pre-dexed\debug\additionnal_1aa7a22e5c332ce2c10e52ce97bd53d330cbbfe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\libs\SuperEncryption-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a510046a7b8ed2f8f6e77877a650d297470c5d0f">
+        <dex dex="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\build\intermediates\pre-dexed\debug\SuperEncryption-1.0_d13cbbb56ecb7fe0bbaadace62db6fb826314c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\libs\grpc-examples-0.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e39d2db9f40d9e7d94f4624a3f6f38d599b54afd">
+        <dex dex="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\build\intermediates\pre-dexed\debug\grpc-examples-0.7.2_db2772f66397cb2db225b0e634e6b8165e6c187e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Taufik\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_c844d29ebb738f5c29c4594d2ef971c1b46575ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\libs\activation.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\Taufik\Documents\android\a\edit\rsa\Webmail-master\app\build\intermediates\pre-dexed\debug\activation_d09f70cd9c2039a3a14b38f63e5d0e0219e785b2.jar" />
+    </item>
+
+</items>
