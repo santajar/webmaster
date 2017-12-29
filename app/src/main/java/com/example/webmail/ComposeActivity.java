@@ -24,6 +24,8 @@ import android.text.TextUtils;
 import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.Toast;
 
 import android.support.v7.app.ActionBarActivity;
@@ -59,12 +61,27 @@ public class ComposeActivity extends ActionBarActivity {
 
 	private static final String TAG = "FileChooserExampleActivity";
 	private static final int REQUEST_CODE = 6384; // onActivityResult request
+	private static CheckBox fee_checkbox;
+	private static boolean ceked;
 	// code
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_compose);
+		fee_checkbox = (CheckBox)findViewById(R.id.checkbox);
+        fee_checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (fee_checkbox.isChecked()) {
+                    // your code to checked checkbox
+                    ceked = true;
+                } else {
+                    // your code to  no checked checkbox
+                    ceked = false;
+                }
+        }
+    });
 		getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#A4C639")));
 
 		if (savedInstanceState == null) {
@@ -126,7 +143,16 @@ public class ComposeActivity extends ActionBarActivity {
 		public boolean onOptionsItemSelected(MenuItem item){
 			int id = item.getItemId();
 			if(id == R.id.action_send){
-				send_message();
+			    System.out.print(ceked);
+				if (ceked == true){
+
+					send_message_enc();
+
+				}else{
+
+					send_message();
+				}
+
 				return true;
 			}
 			if(id == R.id.action_attachment){
@@ -252,11 +278,11 @@ public class ComposeActivity extends ActionBarActivity {
 
 			View rootView = inflater.inflate(R.layout.fragment_compose,
 					container, false);
-			login = (Button) rootView.findViewById(R.id.buttonencrypt);
+//			login = (Button) rootView.findViewById(R.id.buttonencrypt);
 //			ambil_enkrip = (TextView) rootView.findViewById(R.id.compose_encrypt);
 			compose_body = (EditText) rootView.findViewById(R.id.compose_body);
 			compose_password = (EditText) rootView.findViewById(R.id.compose_password);
-			login.setOnClickListener(this);
+//			login.setOnClickListener(this);
 			Intent intent = getActivity().getIntent();
 			if(intent != null){
 
@@ -289,20 +315,19 @@ public class ComposeActivity extends ActionBarActivity {
 		}
 
 		@Override
-
 		public void onClick(View view) {
 
 
-			switch (view.getId()) {
-				case R.id.buttonencrypt: {
-					try {
-							send_message_enc();
-
-						} catch (Exception e) {
-							Log.d("e", "Exception");
-						}
-					}
-				}
+//			switch (view.getId()) {
+//				case R.id.buttonencrypt: {
+//					try {
+//							send_message_enc();
+//
+//						} catch (Exception e) {
+//							Log.d("e", "Exception");
+//						}
+//					}
+//				}
 			}
 
 		public String append(String x){

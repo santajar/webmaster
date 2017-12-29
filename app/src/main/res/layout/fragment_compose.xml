@@ -87,15 +87,22 @@
                 android:gravity="center"
                 android:orientation="vertical">"
 
-                <Button
-                    android:id="@+id/buttonencrypt"
-                    android:layout_width="237dp"
+                <CheckBox android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/bg9"
-                    android:gravity="center"
-                    android:onClick="onClick"
-                    android:paddingLeft="10sp"
-                    android:text="Encrypt and Send" />
+                    android:ems="10"
+                    android:text="Encrypt message"/>
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/buttonencrypt"-->
+                    <!--android:layout_width="237dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@color/bg9"-->
+                    <!--android:gravity="center"-->
+                    <!--android:onClick="onClick"-->
+                    <!--android:paddingLeft="10sp"-->
+                    <!--android:text="Encrypt and Send" />-->
 
             </LinearLayout>
 
