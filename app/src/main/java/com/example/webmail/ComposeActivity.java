@@ -69,19 +69,7 @@ public class ComposeActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_compose);
 		fee_checkbox = (CheckBox)findViewById(R.id.checkbox);
-        fee_checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (fee_checkbox.isChecked()) {
-                    // your code to checked checkbox
-                    ceked = true;
-                } else {
-                    // your code to  no checked checkbox
-                    ceked = false;
-                }
-        }
-    });
 		getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#A4C639")));
 
 		if (savedInstanceState == null) {
@@ -272,6 +260,8 @@ public class ComposeActivity extends ActionBarActivity {
 		}
 
 
+
+
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
@@ -284,6 +274,11 @@ public class ComposeActivity extends ActionBarActivity {
 			compose_password = (EditText) rootView.findViewById(R.id.compose_password);
 //			login.setOnClickListener(this);
 			Intent intent = getActivity().getIntent();
+			CheckBox cbFilter = (CheckBox) rootView.findViewById(R.id.checkbox);
+			cbFilter.setOnCheckedChangeListener(myCheckboxListener);
+
+
+
 			if(intent != null){
 
 				String sub = intent.getStringExtra("SUBJECT");
@@ -314,20 +309,51 @@ public class ComposeActivity extends ActionBarActivity {
 			return rootView;
 		}
 
+		private CompoundButton.OnCheckedChangeListener myCheckboxListener = new CompoundButton.OnCheckedChangeListener() {
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+				switch (buttonView.getId()){
+					case R.id.checkbox:
+						//Log.i("tes", String.format("checkbox onClick, isSelected: %s, identityHashCode: %s", fee_checkbox.isSelected(), System.identityHashCode(fee_checkbox)));
+						try {
+							if (buttonView.isChecked()){
+								ceked = true;
+							}else {
+								ceked = false;
+							}
+							break;
+
+						}catch (Exception e){
+							e.printStackTrace();
+						}
+					default:
+						ceked = false;
+						break;
+				}
+			}
+		};
+
+
 		@Override
 		public void onClick(View view) {
+			Log.e("tag", String.format("checkbox onClick, isSelected: %s, identityHashCode: %s", fee_checkbox.isSelected(), System.identityHashCode(fee_checkbox)));
 
 
-//			switch (view.getId()) {
-//				case R.id.buttonencrypt: {
-//					try {
-//							send_message_enc();
-//
-//						} catch (Exception e) {
-//							Log.d("e", "Exception");
-//						}
-//					}
-//				}
+			switch (view.getId()) {
+				case R.id.checkbox: {
+					try {
+
+						if(fee_checkbox.isChecked()){
+							ceked = true;
+						}else {
+							ceked = false;
+						}
+
+						} catch (Exception e) {
+							Log.d("e", "Exception");
+						}
+					}
+				}
 			}
 
 		public String append(String x){

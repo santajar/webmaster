@@ -21,6 +21,28 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "C:\\Users\\Hudzai\\Videos\\Webmail-master-new\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hudzai\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\fcfd5916043f755941d90ab8713c89c7\\res\\values-w480dp-v13\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "293,594",
+                        "endColumns": "61,71",
+                        "endOffsets": "350,661"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
         }
     ]
 }
