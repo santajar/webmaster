@@ -314,6 +314,7 @@ public class ComposeActivity extends ActionBarActivity {
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 				switch (buttonView.getId()){
 					case R.id.checkbox:
+						ceked = false;
 						//Log.i("tes", String.format("checkbox onClick, isSelected: %s, identityHashCode: %s", fee_checkbox.isSelected(), System.identityHashCode(fee_checkbox)));
 						try {
 							if (buttonView.isChecked()){
