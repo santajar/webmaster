@@ -25,8 +25,6 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.RSA.CipherExample;
-import com.example.RSA.SimpleCrypto;
 import net.superencryption.Decrypter;
 import net.superencryption.Encrypter;
 import net.superencryption.model.EncryptMeta;
