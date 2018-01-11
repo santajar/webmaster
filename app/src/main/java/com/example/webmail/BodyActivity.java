@@ -225,6 +225,7 @@ public class BodyActivity extends ActionBarActivity {
 						String msg = byteArrayToHexString(encryptedData);
 						//Log.d("msg",edmsgs);
 						body_finish.setText(convertHexToString(msg));
+						Toast.makeText(getActivity(), "Password Salah", Toast.LENGTH_LONG).show();
 						//Toast.makeText(getActivity(), "msg", Toast.LENGTH_LONG).show();
 					} catch (NoSuchAlgorithmException e) {
 						Log.d("e", "NoSuchAlgorithmException");

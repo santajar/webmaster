@@ -431,6 +431,7 @@ public class ComposeActivity extends ActionBarActivity {
 				compose_password.getText().toString();
 				byte[] encryptedData = EncryptFragment.encrypt(hexStringToByteArray(compose_password.getText().toString()), compose_body.getText().toString().getBytes());
 				String emsg = byteArrayToHexString(encryptedData);
+
 //				ambil_enkrip.setText(emsg);
 				bodyencrypt = emsg;
 
