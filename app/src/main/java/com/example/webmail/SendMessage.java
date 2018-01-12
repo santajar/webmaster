@@ -66,9 +66,9 @@ public class SendMessage extends IntentService {
 		});
 
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-//		smtp_address = "smtp.gmail.com";
-		smtp_address = "202.52.146.28";
-		smtp_port = "25";
+		smtp_address = "mail.sudatamakmur.com";
+//		smtp_address = "202.52.146.28";
+		smtp_port = "465";
 		username = prefs.getString(getString(R.string.pref_username_key), getString(R.string.pref_username_default));
 		password = prefs.getString(getString(R.string.pref_password_key), getString(R.string.pref_password_default));
 
@@ -81,13 +81,26 @@ public class SendMessage extends IntentService {
 
 		ArrayList<String> path = intent.getStringArrayListExtra("ATTACHMENT_DETAILS");
 		Properties props = new Properties();
-		props.put("mail.smtp.auth", "true");
+//		props.put("mail.smtp.auth", "true");
+////		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.host", smtp_address);
+//		//props.put("mail.smtp.ssl.enable", "true");
 //		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.port", smtp_port);
+
+		props.put("mail.smtp.auth", "true");
+		props.put("mail.smtp.starttls.enable", "true");
 		props.put("mail.smtp.host", smtp_address);
-		//props.put("mail.smtp.ssl.enable", "true");
-		props.put("mail.smtp.port", smtp_port);
+		props.put("mail.smtp.port", "587");
 
 		// Get the Session object.
+//		Session session = Session.getInstance(props,
+//				new javax.mail.Authenticator() {
+//					protected PasswordAuthentication getPasswordAuthentication() {
+//						return new PasswordAuthentication(username, password);
+//					}
+//				});
+
 		Session session = Session.getInstance(props,
 				new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {
@@ -203,6 +216,7 @@ public class SendMessage extends IntentService {
 			mHandler.post(new Runnable() {
 				@Override
 				public void run() {
+
 					Toast.makeText(SendMessage.this, "Message Sent Succesfully", Toast.LENGTH_SHORT).show();
 				}
 			});

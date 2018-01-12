@@ -1,50 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Sisaan\\Pictures\\2\\Webmail-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Sisaan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\38ac0540f9bf72511fdc0e44ea86ce8f\\res\\values-xlarge-land-v4\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "299",
-                        "endColumns": "63",
-                        "endOffsets": "358"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "63",
-                        "endOffsets": "114"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Hudzai\\Videos\\Webmail-master-new\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Hudzai\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\fcfd5916043f755941d90ab8713c89c7\\res\\values-xlarge-land-v4\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "299",
-                        "endColumns": "63",
-                        "endOffsets": "358"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "63",
-                        "endOffsets": "114"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Skripsi\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
             "map": [
                 {

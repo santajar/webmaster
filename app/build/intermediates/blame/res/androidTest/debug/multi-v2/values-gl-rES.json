@@ -1,54 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hudzai\\Videos\\Webmail-master-new\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Hudzai\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\fcfd5916043f755941d90ab8713c89c7\\res\\values-gl-rES\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,407,519,627,712,814,940,1047,1156,1255,1363,1466,1573",
-                        "endColumns": "111,111,107,84,101,125,106,108,98,107,102,106,121",
-                        "endOffsets": "402,514,622,707,809,935,1042,1151,1250,1358,1461,1568,1690"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,167,279,387,472,574,700,807,916,1015,1123,1226,1333",
-                        "endColumns": "111,111,107,84,101,125,106,108,98,107,102,106,121",
-                        "endOffsets": "162,274,382,467,569,695,802,911,1010,1118,1221,1328,1450"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Skripsi\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
             "map": [
                 {
                     "source": "C:\\Users\\NEVIIM - FAJAR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\f41f34810d2495ec047da266ab400325\\res\\values-gl-rES\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,407,519,627,712,814,940,1047,1156,1255,1363,1466,1573",
-                        "endColumns": "111,111,107,84,101,125,106,108,98,107,102,106,121",
-                        "endOffsets": "402,514,622,707,809,935,1042,1151,1250,1358,1461,1568,1690"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,167,279,387,472,574,700,807,916,1015,1123,1226,1333",
-                        "endColumns": "111,111,107,84,101,125,106,108,98,107,102,106,121",
-                        "endOffsets": "162,274,382,467,569,695,802,911,1010,1118,1221,1328,1450"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Sisaan\\Pictures\\2\\Webmail-master\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Sisaan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\38ac0540f9bf72511fdc0e44ea86ce8f\\res\\values-gl-rES\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",

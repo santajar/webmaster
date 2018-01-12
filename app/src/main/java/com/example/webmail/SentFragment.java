@@ -148,6 +148,8 @@ public class SentFragment extends Fragment {
 	public boolean onOptionsItemSelected(MenuItem item){
 		int id = item.getItemId();
 		if(id == R.id.action_refresh){
+			Toast.makeText(getActivity(), "Refesh Email Message!",
+					Toast.LENGTH_LONG).show();
 			Intent sync = new Intent(context, Sync.class);
 			sync.putExtra("PROTOCOL", protocol);
 			sync.putExtra("IMAP_ADDRESS", imap_address);

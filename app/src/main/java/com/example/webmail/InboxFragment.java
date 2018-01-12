@@ -188,6 +188,7 @@ public class InboxFragment extends Fragment {
 		int id = item.getItemId();
 		if(id == R.id.action_refresh){
 			adapter.notifyDataSetChanged();
+
 			Toast.makeText(getActivity(), "Refesh Email Message!",
 					Toast.LENGTH_LONG).show();
 			Intent sync = new Intent(context, Sync.class);

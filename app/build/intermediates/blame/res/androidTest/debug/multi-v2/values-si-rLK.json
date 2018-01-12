@@ -1,54 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hudzai\\Videos\\Webmail-master-new\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-si-rLK\\values-si-rLK.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Hudzai\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\fcfd5916043f755941d90ab8713c89c7\\res\\values-si-rLK\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,405,512,619,707,812,928,1037,1142,1240,1350,1449,1555",
-                        "endColumns": "109,106,106,87,104,115,108,104,97,109,98,105,120",
-                        "endOffsets": "400,507,614,702,807,923,1032,1137,1235,1345,1444,1550,1671"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,272,379,467,572,688,797,902,1000,1110,1209,1315",
-                        "endColumns": "109,106,106,87,104,115,108,104,97,109,98,105,120",
-                        "endOffsets": "160,267,374,462,567,683,792,897,995,1105,1204,1310,1431"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Skripsi\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-si-rLK\\values-si-rLK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\NEVIIM - FAJAR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\f41f34810d2495ec047da266ab400325\\res\\values-si-rLK\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,405,512,619,707,812,928,1037,1142,1240,1350,1449,1555",
-                        "endColumns": "109,106,106,87,104,115,108,104,97,109,98,105,120",
-                        "endOffsets": "400,507,614,702,807,923,1032,1137,1235,1345,1444,1550,1671"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,272,379,467,572,688,797,902,1000,1110,1209,1315",
-                        "endColumns": "109,106,106,87,104,115,108,104,97,109,98,105,120",
-                        "endOffsets": "160,267,374,462,567,683,792,897,995,1105,1204,1310,1431"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Sisaan\\Pictures\\2\\Webmail-master\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-si-rLK\\values-si-rLK.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Sisaan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\38ac0540f9bf72511fdc0e44ea86ce8f\\res\\values-si-rLK\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",

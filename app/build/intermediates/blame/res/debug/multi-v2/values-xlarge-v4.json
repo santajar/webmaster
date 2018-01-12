@@ -1,50 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hudzai\\Videos\\Webmail-master-new\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Hudzai\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\fcfd5916043f755941d90ab8713c89c7\\res\\values-xlarge-v4\\values.xml",
-                    "from": {
-                        "startLines": "4,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,609,673,740,807,873,939",
-                        "endColumns": "76,63,66,66,65,65,54",
-                        "endOffsets": "365,668,735,802,868,934,989"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,132,196,263,330,396,462",
-                        "endColumns": "76,63,66,66,65,65,54",
-                        "endOffsets": "127,191,258,325,391,457,512"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Sisaan\\Pictures\\2\\Webmail-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Sisaan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.0.aar\\38ac0540f9bf72511fdc0e44ea86ce8f\\res\\values-xlarge-v4\\values.xml",
-                    "from": {
-                        "startLines": "4,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,609,673,740,807,873,939",
-                        "endColumns": "76,63,66,66,65,65,54",
-                        "endOffsets": "365,668,735,802,868,934,989"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,132,196,263,330,396,462",
-                        "endColumns": "76,63,66,66,65,65,54",
-                        "endOffsets": "127,191,258,325,391,457,512"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Skripsi\\webmaster\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
